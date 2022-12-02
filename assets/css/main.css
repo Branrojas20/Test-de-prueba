@@ -212,7 +212,7 @@ a {
 }
 
 a:hover {
-	color: #e44c65 !important;
+	color: #6f4ce4 !important;
 	border-bottom-color: transparent;
 }
 
@@ -254,9 +254,14 @@ h6 a {
 }
 
 h2 {
+	background-position: 0px;
+	background-size: 1px;
+	margin: 1%;
+	color: white;
 	font-size: 2em;
-	line-height: 1.5em;
+	line-height: 3.5em;
 	letter-spacing: -0.025em;
+	font-style: normal;
 }
 
 h3 {
@@ -3080,7 +3085,7 @@ input[type="button"]:disabled,
 /* Spotlight */
 
 .spotlight {
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-position: center center;
 	background-size: cover;
 	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3493,7 +3498,7 @@ body.landing .dropotron.level-0 {
 }
 
 #header {
-	background: rgba(39, 40, 51, 0.965);
+	background: rgba(253, 253, 255, 0.965);
 	box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 	cursor: default;
 	height: 3.5em;
@@ -3574,9 +3579,10 @@ body.landing #header {
 
 #banner {
 	background-attachment: fixed;
-	background-color: #6a9235;
-	background-image: url("../../images/banner.jpg");
-	*/ background-position: center center;
+	/* background-color: #0b287d; */
+	background-image: url("../../images/programing4png.png");
+	*/ background-position: right: 10px;
+	;
 	background-size: cover;
 	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 	min-height: 100vh;
@@ -3629,7 +3635,7 @@ body.landing #header {
 }
 
 #banner .content header h2 {
-	font-size: 2.5em;
+	font-size: 3.5em;
 	margin: 0;
 }
 
@@ -3642,7 +3648,7 @@ body.landing #header {
 	border-radius: 100%;
 	display: inline-block;
 	height: 18em;
-	margin-left: 3em;
+	margin-left: 2em;
 	vertical-align: middle;
 	width: 18em;
 }
@@ -3654,7 +3660,7 @@ body.landing #header {
 }
 
 body.is-touch #banner {
-	background-attachment: scroll;
+	/* background-attachment: scroll; */
 }
 
 /* Footer */
@@ -3885,7 +3891,7 @@ body.is-touch #banner {
 
 #navPanel,
 #titleBar {
-	display: none;
+	display: block;
 }
 
 @media screen and (max-width: 736px) {
