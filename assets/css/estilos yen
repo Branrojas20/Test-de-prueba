@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: inherit;
+
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(49, 21, 115, 0.502) 0%, rgba(199, 137, 228, 0.502) 100%), url(../);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.head {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+.hamburguer {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+}
+
+.img-galeria {
+    width: 90%;
+    padding: 20px;
+}
+
+.container-menu {
+    margin: 20px 0 0 20px;
+    position: absolute;
+}
+
+.container-menu>.item {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.5s ease;
+
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.container-menu>.item:hover {
+    background: black;
+    color: red;
+    font-size: 40px;
+}
+
+.contenedor-galeria {
+    width: 1oo%;
+    padding-left: 20%;
+    position: static;
+}
+
+.social-media {
+    size: 2cm;
+}
+
+.social-media-icon {
+    color: black;
+    size: 2cm;
+    padding-top: 0.5cm;
+    padding: 0.5cm;
+    text-decoration: none;
+}
